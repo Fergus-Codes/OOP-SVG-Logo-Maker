@@ -54,7 +54,7 @@ This application was created to help developers create simple Logos for projects
 
 # Screen recording of the functionality of the app.
 
-
+Click on the link to watch a demo of the application ---->https://drive.google.com/file/d/1KHSObPWNfGzBLjfEZuVV3WWEFpH9MIe8/view
 
 # Examples of generated Logos
 
