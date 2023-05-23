@@ -1,0 +1,28 @@
+{
+    "name": "oop-svg-logo-maker",
+    "version": "1.0.0",
+    "description": "Uniadelaide-coding-challenge-10",
+    "main": "index.js",
+    "directories": {
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Fergus-Codes/OOP-SVG-Logo-Maker"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Fergus-Codes/OOP-SVG-Logo-Maker/issues"
+    },
+    "homepage": "https://github.com/Fergus-Codes/OOP-SVG-Logo-Maker",
+    "dependencies": {
+      "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+      "jest": "^29.5.0"
+    }
+  }
