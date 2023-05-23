@@ -67,13 +67,13 @@ This application was created to help developers create simple Logos for projects
 ![Command Line For ART Logo".](./ExampleSvgs/GLD-COmmand-Line.png)
 
 
-![Image showing a Gold square with black text that reads "GLD.".](./ExampleSvgs\GLD-SVG-Example.png)
+![Image showing a Gold square with black text that reads "GLD.".](./ExampleSvgs/GLD-SVG-Example.png)
 
 
 ![Command Line For ART Logo".](./ExampleSvgs/PLS-Command-Line.png)
 
 
-![Image showing a black circle with white text that reads "SVG.".](./ExampleSvgs\PLS-SVG-Example.png)
+![Image showing a black circle with white text that reads "SVG.".](./ExampleSvgs/PLS-SVG-Example.png)
 
 
 
