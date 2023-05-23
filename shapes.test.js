@@ -1,6 +1,6 @@
 // Import Shape classes from shapes.js to test with Jest
 const { TriangleShape, CircleShape, SquareShape } = require("./shapes");
-
+// Created a series of tests (3) to test each individual shape's color
 // Using Jest to test TriangleShape
 describe("TriangleShape testing", () => {
   test("Test whether the TriangleShape has a fill value of #e1e3ed", () => {
