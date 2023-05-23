@@ -13,7 +13,7 @@ function writeToFile(fileName, answers) {
 // Store all of the users choices in an easily accessible variable
   let selectedShape;
 
-
+// IF statement which fills the selectedShape variable with the selected shape
   if (answers.shape === "A Triangle") {
     selectedShape = new TriangleShape();
     svgString += `<polygon points="150, 18 244, 182 56, 182" fill="${answers.shapeBackgroundColor}"/>`;
@@ -45,26 +45,26 @@ function writeToFile(fileName, answers) {
 function gatherInfo() {
   inquirer
     .prompt([
-
+// Question asking Text color
       {
         type: "input",
         message: "Please enter which color you would like your logo text to be.",
         name: "logoColorText",
        
       },
-
+// Question asking for 3 characters to be included
       {
         type: "input",
         message: "Please Enter 3 characters to be included in your logo.",
         name: "textContent",
       },
-
+// Question asking for background color of logo
       {
         type: "input",
         message: "Please choose which color you like the background of your logo to be.",
         name: "shapeBackgroundColor",
       },
-
+// Question asking which shape the client would like
       {
         type: "list",
         message: "Please select which shape you would like your logo to be.",
@@ -74,7 +74,7 @@ function gatherInfo() {
 
     ])
     .then((answers) => {
-
+// If statement ensures that the correct textContent length was input
       if (answers.textContent.length > 3) {
         // Throw error if user inputs more than 3 characters.
         console.log("Please ensure that you have entered no more than 3 characters");
